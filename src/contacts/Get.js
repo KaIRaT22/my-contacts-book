@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import ContactList from './contacts/ContactList';
+import ContactList from './ContactList';
 
 // import TodoList from './Todo/TodoList'
 
