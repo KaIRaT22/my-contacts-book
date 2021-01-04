@@ -1,39 +1,48 @@
 .POPOSSpace {
-  position: relative;
-  width: 100%;
-  text-align: center;
+  width: 250px;
+  margin-top: 20px;
+  border: black 1px solid;
+}
+.POPOSSpace-info {
+  padding:  9px 9px 9px 9px;
+}
+
+.POPOSSpace__info-top {
+  display: flex;
+  justify-content: space-between;
 }
   
 .POPOSSpace > img {
+  width: 250px;
+  height: 134px;
+}
+
+.POPOSSpace-info span {
+  padding-right: 10px;
+}
+
+.POPOSSpace .show__btn {
+  padding: 2px 30px;
+  background: #212121;
+  border-radius: 2px;
+  color: white;
+  text-decoration: none;
+}
+.show__btn-block {
+  margin-top: 30px;
   width: 100%;
-  height: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.POPOSSpace .POPOSSpace-title {
-  color: coral;
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
+/* Favourite icon */
+.Favourite {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
 }
-
-.POPOSSpace h1 {
-  margin: 0;
-  font-weight: lighter;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 0.5rem;
-  text-align: left;
-}
-
-.POPOSSpace .POPOSSpace-info {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  text-align: right;
-} 
-
-.POPOSSpace .POPOSSpace-info div {
-  display: inline-block;
-  padding: 0.25em 0.5em;
-  background-color: rgba(255, 255, 255, 0.9);
+.Favourite > svg > path {
+  width: 100%;
+  height: 100%;
 }
